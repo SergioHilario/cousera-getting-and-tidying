@@ -18,6 +18,7 @@ std(): Standard deviation
 * The linear acceleration magnitudes are in standard gravity units (g).
 * The angular acceleration magnitudes are in rad/s.
 * Jerk variables are time derivatives so their corresponding units are g/s and rad/s^2.
+* All the frequency measurements are the fourier transform of the corresponding magnitude, so their units are the ones of the corresponding magnitude multiplied by seconds.
 
 ## Identification variables
 The data set contains two variables in order to identify different experimental subjects and the conditions in which the experiment was performed:
